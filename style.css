@@ -34,6 +34,10 @@
     background: linear-gradient(#ffeb3b,#ff9800);
 }
 
+.scene.active .bg {
+    transform: translateY(0);
+}
+
 .scene.active .moon {
     left: 200px;
     box-shadow: 0 0 20px rgba(255,255,255,0.5),
@@ -211,5 +215,10 @@ img {
         display: none;
         animation: none;
         transition: 0s;
+    }
+
+    .bg {
+        width: 100%;
+        height: 400px;
     }
 }
