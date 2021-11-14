@@ -108,11 +108,9 @@
         opacity: 0;
         transform: translateY(0px);
     }
-    
     10%, 90% {
         opacity: 1;
     }
-    
     100% {
         opacity: 0;
         transform: translateY(-100px);
@@ -124,7 +122,6 @@
     0% {
         transform: translateX(-100%) scale(1);
     }
-    
     100% {
         transform: translateX(400%) scale(1.5);
     }
