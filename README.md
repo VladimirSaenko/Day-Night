@@ -1,4 +1,4 @@
-# Day-Night-example
+# Day-Night
  
 ### Сайт с изменениям дня и ночи
 
